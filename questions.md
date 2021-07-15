@@ -4,28 +4,4 @@
 - then kubectl describe pod <podname> to see it labels
 - and then open docs
   
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: internal-policy
-spec:
-  podSelector:
-    matchLabels:
-      name: internal
-  policyTypes:
-  - Egress
-  egress:
-  - to:
-    - podSelector:
-        matchLabels:
-           name: mysql
-    ports:
-    - protocol: TCP
-      port: 3306
-  - to:
-    - podSelector:
-        matchLabels:
-            name: payroll
-    ports:
-    - protocol: TCP
-      port: 8080
+![image](https://user-images.githubusercontent.com/59960562/125798605-ef97dced-5791-44e0-93aa-22b0eb70943c.png)
