@@ -25,13 +25,14 @@ TCP? port 3306
 
 command - cat -/app/is_ready (script)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d426fb94-dfda-4c18-ad3c-1916f0a85190/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d426fb94-dfda-4c18-ad3c-1916f0a85190/Untitled.png)
+![image](https://user-images.githubusercontent.com/59960562/125889416-38963027-58cb-418e-887b-675632ea2484.png)
+
 
 ### Liveness probe
 
 can be configured to check if the container is healthy or not
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2da5199d-89ba-4e13-bfdb-cc69d9824252/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2da5199d-89ba-4e13-bfdb-cc69d9824252/Untitled.png)
+![image](https://user-images.githubusercontent.com/59960562/125889430-9d65e1a1-3cb6-4caa-9b94-39e189ebe600.png)
 
 livenessProbe
 
@@ -41,7 +42,7 @@ kubectl logs <pod_name> <container_name>
 
 ### Monitoring
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e1ef86e-6412-4e10-92f7-928b1e6776e6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e1ef86e-6412-4e10-92f7-928b1e6776e6/Untitled.png)
+![image](https://user-images.githubusercontent.com/59960562/125889452-961822d3-8575-4574-90dc-21222c88aea0.png)
 
 - we will focus metrics server only
 
